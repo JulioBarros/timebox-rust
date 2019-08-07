@@ -1,0 +1,20 @@
+work_stand:
+  duration: .1
+  say: stand and work
+  play: Blow
+
+work_sit:
+  duration: .1
+  say: sit and work
+  play: Blow
+
+break:
+  duration: .1
+  say: take a break
+  play: Ping
+
+work_box:
+  timeboxes:
+    - work_stand
+    - work_sit
+    - break
